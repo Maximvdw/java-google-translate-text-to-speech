@@ -37,6 +37,7 @@ public class ParseTextTranslate implements Parse {
 		url.append("&hl=" + input.getLanguage());
 		url.append("&sl=" + input.getLanguage());
 		url.append("&tl=" + output.getLanguage());
+		url.append("&dt=t");
 		url.append("&multires=1&prev=btn&ssel=0&tsel=0&sc=1");
 
 	}
